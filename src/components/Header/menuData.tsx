@@ -17,14 +17,14 @@ const menuData: Menu[] = [
   },
   {
     id: 33,
-    title: "Servicios",
+    title: "Actividades",
     path: "/#servicios",
     newTab: false,
     type: "anchor"
   },
   {
     id: 4,
-    title: "Actividades",
+    title: "Servicios",
     newTab: false,
     path: "/actividades",
   },
