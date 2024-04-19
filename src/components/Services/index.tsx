@@ -8,7 +8,7 @@ const Services = () => {
       <section id="servicios" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Servicios"
+            title="Actividades"
             paragraph="Conciencia y protección de la vida silvestre son esenciales para nuestra empresa. Por eso ofrecemos oportunidades emocionantes para explorar la naturaleza y la cultura local de manera sostenible y asequible."
             width="100%"
           />
