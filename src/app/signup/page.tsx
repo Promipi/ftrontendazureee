@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { GithubSignInButton } from "@/components/SignIn/GithubSignInButton";
 import { getServerSession } from "next-auth";
-import { authOptions } from "../api/auth/[...nextauth]/route";
 import { redirect } from "next/navigation";
+import { authOptions } from "@/lib/configs/auth/authOptions";
 
 export const metadata: Metadata = {
   title: "Crear Cuenta | Safari",
