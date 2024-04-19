@@ -13,8 +13,8 @@ export default function Actividades() {
     return (
         <>
             <Breadcrumb
-                pageName="Actividades"
-                description="Listado de Actividades Disponibles"
+                pageName="Servicios"
+                description="Estos son nuestros aliados para ofrecerte el mejor confort en esta experiencia!"
             />
             <Events />
             <Comunidades />
