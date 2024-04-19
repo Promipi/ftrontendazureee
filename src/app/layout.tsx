@@ -4,6 +4,9 @@ import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
+import { Providers } from "./providers";import { getServerSession } from "next-auth";
+import { WhatsappContactButton } from "@/components/WhatsappContactButton";
+import { authOptions } from "@/lib/configs/auth/authOptions";
 
 const inter = Inter({ subsets: ["latin"], display: 'swap' });
 
@@ -41,8 +44,4 @@ export default async function RootLayout({
     </html>
   );
 }
-
-import { Providers } from "./providers";import { getServerSession } from "next-auth";
-import { authOptions } from "./api/auth/[...nextauth]/route";
-import { WhatsappContactButton } from "@/components/WhatsappContactButton";
 
